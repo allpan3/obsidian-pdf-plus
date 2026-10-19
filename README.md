@@ -399,14 +399,14 @@ Fortunately, it seems to be compatible with PDF++, meaning you can use features 
 
 ## Installation
 
-You can install this plugin from within Obsidian's community plugin browser.
-
-Alternatively, you can try the cutting-edge, latest beta release using [BRAT](https://github.com/TfTHacker/obsidian42-brat).
+This repository is a maintenance fork of [Ryota Ushio's PDF++](https://github.com/RyotaUshio/obsidian-pdf-plus). Install this fork using [BRAT](https://github.com/TfTHacker/obsidian42-brat). The Obsidian community plugin browser installs the upstream version.
 
 1. Install the latest version of BRAT and enable it.
 2. _(Optional but highly recommended)_ In the BRAT settings, turn on `Auto-update plugins at startup` at the top of the page.
-3. Open the following URL in the browser: `obsidian://brat?plugin=RyotaUshio/obsidian-pdf-plus`.
+3. Open the following URL in the browser: `obsidian://brat?plugin=allpan3/obsidian-pdf-plus`.
 4. Click the "Add Plugin" button.
+
+For manual installation, download `main.js`, `manifest.json`, and `styles.css` from the [latest fork release](https://github.com/allpan3/obsidian-pdf-plus/releases/latest), place them in your vault's `.obsidian/plugins/pdf-plus/` directory, and reload Obsidian. This fork keeps the `pdf-plus` ID and existing settings, so it replaces the upstream plugin. Use BRAT or the fork releases for updates; the community plugin updater follows upstream.
 
 ## Credits
 
